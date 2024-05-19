@@ -1,0 +1,9 @@
+# Using the function from GeeksforGeeks
+def square(number):
+    return number * number
+
+# Calculate the square of the planet's distance from the sun
+distance_from_sun = 93000000  # Example distance in miles
+square_of_distance = square(distance_from_sun)
+
+print("The square of the planet's distance from the sun is:", square_of_distance)
